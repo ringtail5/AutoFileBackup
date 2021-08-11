@@ -1,5 +1,5 @@
 #Enable temporary Script Execution
-Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
+#Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
 #Define Variable to save space and time
 $Date = (Get-Date)
 $DateOld = ((Get-Date).AddDays(-14))
