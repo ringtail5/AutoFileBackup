@@ -3,9 +3,9 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
 #Define Variable to save space and time
 $Date = (Get-Date)
 $DateOld = ((Get-Date).AddDays(-14))
-$DestinationPathforCB = "\\BrownNAS\Household Files\Bookkeeping Files\Checkbook Register*.*"
-$DestinationPathforBills = "\\BrownNAS\Household Files\Bookkeeping Files\Bills*.*"
-$DestinationFilePath = "\\BrownNAS\Household Files\Bookkeeping Files"
+$DestinationPathforCB = "\\NAS\Household Files\Bookkeeping Files\Checkbook Register*.*"
+$DestinationPathforBills = "\\NAS\Household Files\Bookkeeping Files\Bills*.*"
+$DestinationFilePath = "\\NAS\Household Files\Bookkeeping Files"
 #Wake up the NAS
 Get-ChildItem $DestinationFilePath
 Start-Sleep -Seconds 5
